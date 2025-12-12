@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.logo {
+    text-align: center;
+}
+
+header {
+    background-color: #ff7043;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 75px;
+    font-weight: bolder;
+}
+main {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid ;
+}
+
+th {
+    background-color: #ffe0d6;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+.special-dishes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.special-dishes .dish {
+    width: 220px;
+    background-color: #ffe0d6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.special-dishes .dish img {
+    width: 100%px;
+    border-radius: 10px;
+}
+
+.special-cakes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.special-cakes .cake {
+    width: 220px;
+    background-color: #ffe0d6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.special-cakes .cake img {
+    width: 100%px;
+    border-radius: 10px;
+}
+
+.special-drinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.special-drinks .drink {
+    width: 220px;
+    background-color: #ffe0d6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.special-drinks .drink img {
+    width: 100%px;
+    border-radius: 10px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff7043;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+footer {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 40px;
+}
